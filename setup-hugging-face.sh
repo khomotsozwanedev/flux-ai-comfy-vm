@@ -19,6 +19,9 @@ fi
 
 echo "Huggingface access token: $accessToken"
 
+# weird thing happens where we are 
+export PATH=$PATH:~/.local/bin
+
 # Install huggingface cli
 pip install -U "huggingface_hub[cli]"
 

@@ -14,8 +14,8 @@ We are creating a script for running the flux ai model on ComfyUI using only a C
 
 
 ## Dependencies
-- Ngrok auth token (https://ngrok.com/)[https://ngrok.com/] for tunneling once the comfy ui application is running on port 8188
--  Huggingface access token (https://huggingface.co/settings/tokens)[https://huggingface.co/settings/tokens]
+- Ngrok auth token [https://ngrok.com/](https://ngrok.com/) for tunneling once the comfy ui application is running on port 8188
+-  Huggingface access token [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
 
 ## Install
 - ## Step 1: Get repo
@@ -25,14 +25,25 @@ We are creating a script for running the flux ai model on ComfyUI using only a C
     - chmod +x system-install.sh
     - run the script using ./system-install.sh
 - ## Step 3: Setup ngrok 
-    - chmod +x ngrok-setup.sh
+    - chmod +x setup-ngrok.sh
     - run the script using ./setup-ngrok.sh --authToken {authToken}
-- ## Setup huggingface
+- ## Setup 4: huggingface
     - chmod +x setup-hugging-face.sh
     - run the script using ./setup-hugging-face.sh --accessToken {accessToken}
-- ## Step 4: Install ComfyUI
+- ## Step 5: Install ComfyUI
     - chmod +x install-comfy-ui.sh
     - run the script with ./install-comfy-ui.sh 
-- ## Step 5: Setup ComfyUI
+- ## Step 6: Setup ComfyUI
+    - chmod +x download-models.sh
+    - run the script with ./download-models.sh
+- ## Step 7: Run ComfyUI
     - cd ComfyUI
-    - 
+    - Start the Comfy UI application
+    - run python3 main.py --cpu
+    - You should have the following message "Starting server To see the GUI go to: http://127.0.0.1:8188"
+    - Open a new connection (VM) and or on a new terminal (Local Machine)
+    - Run ngrok to tunnel through the the machine
+    - run ngrok http http://127.0.0.1:8188
+- ## Step 8: Follow the steps to set up Comfy UI
+    - Follow any and all tutorials to set up Comfy UI, use the image in the assets folder to get the get started ![Comfy UI Workflow image](URL_or_Path_To_Image)
+    - [https://www.youtube.com/watch?v=3kljJNosQ1I](https://www.youtube.com/watch?v=3kljJNosQ1I)
