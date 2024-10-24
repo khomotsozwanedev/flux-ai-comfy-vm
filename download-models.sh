@@ -5,7 +5,7 @@
 cd 
 pwd
 
-cd ComfyUI/models/clip
+cd "$(pwd)/flux-ai-comfy-vm/ComfyUI/models/clip"
 pwd 
 
 # We should be in the /

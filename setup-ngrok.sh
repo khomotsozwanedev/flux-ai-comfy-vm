@@ -29,5 +29,6 @@ curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
 # Create ngrok for tunneling
 ngrok authtoken $authToken
 
+ngrok --version
 # only run once the comfy ui is running
 # ngrok http 8188
