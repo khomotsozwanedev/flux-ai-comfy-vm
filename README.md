@@ -45,5 +45,5 @@ We are creating a script for running the flux ai model on ComfyUI using only a C
     - Run ngrok to tunnel through the the machine
     - run ngrok http http://127.0.0.1:8188
 - ## Step 8: Follow the steps to set up Comfy UI
-    - Follow any and all tutorials to set up Comfy UI, use the image in the assets folder to get the get started ![Comfy UI Workflow image](URL_or_Path_To_Image)
+    - Follow any and all tutorials to set up Comfy UI, use the image in the assets folder to get the get started ![Comfy UI Workflow image](https://github.com/khomotsozwanedev/flux-ai-comfy-vm/blob/main/assets/flux_schnell_example.png)
     - [https://www.youtube.com/watch?v=3kljJNosQ1I](https://www.youtube.com/watch?v=3kljJNosQ1I)
