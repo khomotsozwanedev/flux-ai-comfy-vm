@@ -20,6 +20,7 @@ sudo apt install -y python3.10-venv
 sudo apt install -y python3-pip
 sudo apt install -y zip
 sudo apt-get install -y libgl1-mesa-glx
+sudo apt-get install -y inotify-tools # Tool to be used to watch folder changes
 python3 --version
 sudo apt-get autoremove -y
 sudo apt-get clean
