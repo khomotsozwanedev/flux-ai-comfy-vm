@@ -21,6 +21,7 @@ sudo apt install -y python3-pip
 sudo apt install -y zip
 sudo apt-get install -y libgl1-mesa-glx
 sudo apt-get install -y inotify-tools # Tool to be used to watch folder changes
+sudo apt-get install -y rename
 python3 --version
 sudo apt-get autoremove -y
 sudo apt-get clean
